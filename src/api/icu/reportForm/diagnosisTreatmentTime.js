@@ -1,0 +1,38 @@
+import request from '@/router/axios'
+
+export function fetchList(query) {
+  return request({
+    url: '/icu/pinping/userecord/selectPaging',
+    method: 'get',
+    params: query
+  })
+}
+
+export function getObj(id) {
+  return request({
+    url: '/admin/dict/' + id,
+    method: 'get'
+  })
+}
+
+export function delObj(row) {
+  return request({
+    url: '/admin/dict/' + row.id,
+    method: 'delete'
+  })
+}
+
+export function putObj(obj) {
+  return request({
+    url: '/admin/dict/',
+    method: 'put',
+    data: obj
+  })
+}
+
+export function remote(type) {
+  return request({
+    url: '/admin/dict/type/' + type,
+    method: 'get'
+  })
+}

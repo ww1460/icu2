@@ -1,0 +1,112 @@
+.el-dropdown-menu__item {
+  font-size: 12px !important;
+  line-height: 28px !important;
+}
+
+.el-card.is-always-shadow {
+  box-shadow: none;
+  border: none !important;
+}
+
+.el-scrollbar__view {
+  height: 100%;
+}
+
+.el-collapse-item__header {
+  display: block !important;
+}
+
+.el-menu--horizontal {
+  border-bottom: none !important;
+}
+
+.el-menu {
+  border-right: none !important;
+}
+
+.el-menu--display,
+.el-menu--display + .el-submenu__icon-arrow {
+  display: none;
+}
+
+.el-dropdown-menu__item--divided:before,
+.el-menu,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent;
+}
+
+.el-message__icon,
+.el-message__content {
+  display: inline-block;
+}
+
+.el-date-editor .el-range-input,
+.el-date-editor .el-range-separator {
+  height: auto;
+  overflow: hidden;
+}
+
+.el-dialog__wrapper {
+  z-index: 2048;
+}
+
+
+.el-col {
+  margin-bottom: 8px;
+}
+
+.el-main {
+  padding: 0 !important;
+}
+
+.el-dropdown-menu__item--divided:before, .el-menu, .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover, .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: transparent !important;
+}
+
+// 患者选择样式
+.dropdownMenu {
+   width: 140px !important;
+   max-height: 500px !important;
+   text-align: center;
+   overflow-y: auto;
+}
+.dropdownMenu .el-button{
+   margin: 0px;
+   margin-left:0px !important;
+}
+/*滚动条样式*/
+.dropdownMenu::-webkit-scrollbar {
+   /*滚动条整体样式*/
+   width: 4px; /*高宽分别对应横竖滚动条的尺寸*/
+   height: 4px;
+}
+.dropdownMenu::-webkit-scrollbar-thumb {
+   /*滚动条里面小方块*/
+   border-radius: 5px;
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+   background: rgba(0, 0, 0, 0.2);
+}
+.dropdownMenu::-webkit-scrollbar-track {
+   /*滚动条里面轨道*/
+   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+   border-radius: 0;
+   background: rgba(0, 0, 0, 0.1);
+}
+.dropdownMenu .devBtn {
+   background: #409eff !important;
+   color: #fff !important;
+}
+.dropdownMenu .el-button {
+   margin-bottom: 10px;
+   width: 120px;
+   span {
+      display: block;
+      margin: 0 auto;
+      overflow: hidden;
+   }
+}
+.avue-ueditor .ql-toolbar {
+   background-color: #fff !important;
+}
